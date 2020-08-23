@@ -5,3 +5,24 @@ server:
 logging:
   file:
     name: logs/log.log
+spring:
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+  datasource:
+    druid:
+      url: jdbc:mysql://49.234.234.227:3306/eroch?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: 123456
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      test-on-borrow: true
+      driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  base-packages: com.cyf.eroch.enity
+  mapper-locations:
+    classpath: mapper/*.xml

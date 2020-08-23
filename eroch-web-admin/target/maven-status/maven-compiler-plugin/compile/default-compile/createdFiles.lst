@@ -1,1 +1,5 @@
 com\cyf\eroch\web\admin\DemoApplication.class
+com\cyf\eroch\web\admin\utils\MyMapper.class
+com\cyf\eroch\web\admin\mapper\TbUserMapper.class
+com\cyf\eroch\web\admin\controller\LoginController.class
+com\cyf\eroch\web\admin\entity\TbUser.class
