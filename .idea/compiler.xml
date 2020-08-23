@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eroch-commons" />
+        <module name="eroch-domain" />
+        <module name="eroch-web-admin" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eroch" target="1.8" />
+      <module name="eroch-commons" target="1.8" />
+      <module name="eroch-dependencies" target="1.8" />
+      <module name="eroch-domain" target="1.8" />
+      <module name="eroch-web-admin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eroch-commons" options="-parameters" />
+      <module name="eroch-domain" options="-parameters" />
+      <module name="eroch-web-admin" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/eroch.iml" filepath="$PROJECT_DIR$/.idea/eroch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eroch-commons/eroch-commons.iml" filepath="$PROJECT_DIR$/eroch-commons/eroch-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eroch-dependencies/eroch-dependencies.iml" filepath="$PROJECT_DIR$/eroch-dependencies/eroch-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eroch-domain/eroch-domain.iml" filepath="$PROJECT_DIR$/eroch-domain/eroch-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eroch-web-admin/eroch-web-admin.iml" filepath="$PROJECT_DIR$/eroch-web-admin/eroch-web-admin.iml" />
+    </modules>
+  </component>
+</project>
